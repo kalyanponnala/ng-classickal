@@ -1,0 +1,12 @@
+<section class="artistinfo">
+	<div class="artist cf" ng-model="artists">
+		<h1>{{artists[whichItem].name}}</h1>
+		<div class="info">
+			<img ng-src="images/{{artists[whichItem].shortname}}_tn.jpg">
+			<div class="bio">
+				{{artists[whichItem].bio}}
+			</div>
+		</div>
+	</div>
+	<a href="routing.html">&laquo; Back to search</a>
+</section>
